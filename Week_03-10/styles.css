@@ -78,3 +78,18 @@ td {
 #profile-img {
 	float: left;
 }
+
+.timetable tr, th, td {
+	border: 1px solid black;
+}
+.timetable {
+	border-collapse: collapse;
+}
+.timetable th {
+	width:120px;
+	height: 15px;
+}
+.div-timetable {
+	background: #F2F7FF;
+	margin: 20px;
+}
