@@ -1,0 +1,79 @@
+body {
+	background: #B3CAEF;
+	font-family: cursive, sans-serif;
+	height: 100%;
+}
+/*
+theme:
+-color: white, blue, grey 
+#F2F7FF(v light grey), #B3CAEF(light blue), #6E9FEF(blue), #2D5AA3(dark blue), #34495E(navy blue)
+*/
+
+/* lost and found page */
+
+.item-list {
+	background: #F2F7FF;
+
+	border: 1px dashed #2D5AA3;
+	border-radius: 10px;
+
+	float: left;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+
+}
+
+.new-input {
+	display: block;
+	margin: 5px;
+	padding: 5px;
+}
+
+#add-item {
+  margin: 1em 0em;
+  display: block;
+  outline: none;
+  background: #34495E;
+  border: none;
+  padding: 1.1em;
+  border-radius: 6px;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.table-header{
+	font-weight: bolder;
+}
+
+td {
+	padding: 10px 15px;
+	position: relative;
+}
+
+#div-home {
+	position:fixed;
+    bottom:0;
+    right:0;
+}
+
+#btn-home {
+	height: 50px;
+	width: 50px;
+	background-image: url("images/home-icon.jpg");
+	background-size: 50px 50px;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* profile page */
+
+#profile-details {
+	float: left;
+}
+
+#profile-img {
+	float: left;
+}

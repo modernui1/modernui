@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>Lost and Found</title>
+	</head>
+
+	<body>
+		<div class="item-list" id="new-lnf">
+			<h1>New Item Lost/Found</h1>
+			
+			<p>Item Name</p><input class="new-input" type='text' placeholder='Item Name'>
+			<p>Date Lost/Found</p><input class="new-input" type='date' placeholder='Date Lost/Found'>
+			<p>Item Description</p><input class="new-input" type='text' placeholder='Item Description'>
+
+			<form class="new-input" id="new-lnf-type" action="">
+  				<input type="radio" name="new-type" value="lost"> Lost<br>
+  				<input type="radio" name="new-type" value="found"> found<br>
+			</form>
+
+			<p>Item image (for item found only)</p>
+			<input type='file'>
+
+			<button id="add-item" onclick="addItem()">Add Item</button>
+		</div>
+		
+		<div>
+			<div class="item-list" id="lost-lnf">
+				<h1>Items Lost</h1>
+				<table>
+					<tr class="table-header">
+						<td class="left">Item Name</td>
+		         		<td class="left">Date Lost</td>
+		        		<td>Description</td>
+		        	</tr>
+		        	<tr>
+			        	<td>ItemName1</td>
+			         	<td>01/01/2018</td>
+			        	<td>Item 1 Description</td>
+			        </tr>
+
+		        	<tr>
+		        		<td>ItemName2</td>
+		        	 	<td>01/02/2018</td>
+		        		<td>Item 2 Description</td>
+		        	</tr>
+
+		        	<tr>
+		        		<td>ItemName3</td>
+		        	 	<td>01/03/2018</td>
+		        		<td>Item 3 Description</td>
+		        	</tr>
+			    </table>
+			</div>
+
+			<div class="item-list" id="found-lnf">
+				<h1>Items Found</h1>
+				<table>
+					<tr class="table-header">
+			        	<td class="left">Item Name</td>
+		    	     	<td class="left">Date Found</td>
+		        		<td>Description</td>
+		        		<td>Item Image</td>
+		        	</tr>
+
+		        	<!-- Connect with database-->
+		        	<tr class="lnf-tr">
+		        		<td>ItemName1</td>
+		        	 	<td>01/01/2018</td>
+		        		<td>Item 1 Description</td>
+		        		<td><img src="."></td>
+		        	</tr>
+		    	</table>
+	    	</div>
+		</div>
+
+		<div id="div-home">
+			<!--Home icon image in css-->
+			<button id="btn-home" onclick="returnHomePg()"></button>
+		</div>
+
+	</body>
+</html>
+
+
+
