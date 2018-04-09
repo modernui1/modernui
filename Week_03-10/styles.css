@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 body {
 	background: #B3CAEF;
-	font-family: 'Gaegu', cursive;
+	font-family: 'Gaegu', cursive, sans-serif;
 	height: 100%;
 }
 /*
