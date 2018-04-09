@@ -80,6 +80,8 @@ td {
 	float: left;
 }
 
+/* timetable page */
+
 .timetable tr, th, td {
 	border: 1px solid black;
 }
@@ -94,7 +96,7 @@ td {
 	background: #F2F7FF;
 	margin: 20px;
 }
-.button {
+.homebutton {
 	padding-right: 30px;
 	text-align: right;
 }
