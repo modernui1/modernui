@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 body {
 	background: #B3CAEF;
 	font-family: 'Gaegu', cursive;
@@ -92,4 +93,11 @@ td {
 .div-timetable {
 	background: #F2F7FF;
 	margin: 20px;
+}
+.button {
+	padding-right: 30px;
+	text-align: right;
+}
+a {
+	text-decoration: none;
 }
