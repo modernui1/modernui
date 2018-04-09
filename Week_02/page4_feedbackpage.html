@@ -3,25 +3,36 @@
 	<head> 
 		<meta charset="UTF-8">
 		<title>Page 4</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	
 	<body>
 		<div class="postarea">
-			<!--insert post-->
+			<div class="post">
+				<!--insert post-->
+				Post
+				chiken
+			</div>
 		</div>
-		<div class="form">
-			<form action="#">
-				<!--<input type="text" placeholder="Your feedback for the school" style="width:90%; height:70px;">-->
-				<textarea placeholder="Your feedback for the school" style="width:90%; height:70px;resize: none;"></textarea>
-				<br />
+		<br />
+		<form action="#">
+			<!--<input type="text" placeholder="Your feedback for the school" style="width:90%; height:70px;">-->
+			<div class="div-textarea">
+				<textarea placeholder="Your feedback for the school" class="feedbacktext"></textarea>
+			</div>
+			<br />
+			<div class="form">
 				<select name="anon">
 					<option value="anon">Anonymous?</option>
 					<option value="no">Nah</option>
 				</select>
 				&nbsp; 
-				<input type="submit">
-		</div>
+				<button type="submit" class="fbsubmit">Submit</button>
+			</div>
+		</form>
 		<br />
-		<a href="page2_homepage.html">Home</a>
+		<div class="homebutton">
+			<a href="#"> <i class="material-icons">home</i></a>
+		</div>
 	</body>
 </html>
