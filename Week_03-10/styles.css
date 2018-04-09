@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/* Use <a href="#"> <i class="material-icons">home</i></a> for home button */
+
+/* global */
 body {
 	background: #B3CAEF;
 	font-family: 'Gaegu', cursive, sans-serif;
 	height: 100%;
+}
+.homebutton {
+	padding-right: 4%;
+	text-align: right;
+	background-color: Transparent;
+}
+a {
+	text-decoration: none;
 }
 /*
 theme:
@@ -96,10 +107,48 @@ td {
 	background: #F2F7FF;
 	margin: 20px;
 }
-.homebutton {
-	padding-right: 30px;
-	text-align: right;
+
+/* feedback page */
+.postarea {
+	border-radius: 30px;
+	background-color: white;
+	height: 63vh;
+	width: 70vw;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-a {
-	text-decoration: none;
+.post {
+	padding-left: 20px;
+}
+.form {
+	display: flex;
+	justify-content: center;
+}
+.feedbacktext {
+	width: 50vw; 
+	height: 11vh;
+	resize: none;
+	text-align: center;
+	border-radius: 30px;
+	outline: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div-textarea {
+	width: 50vw;
+	margin: auto;
+}
+.fbsubmit {
+	width: 25vw;
+	height: 5vh;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color: Transparent;
+}
+.fbsubmit:hover{
+	color: #f45042;
+	border: 2px solid #f45042;
+}
+::-webkit-input-placeholder {
+    font-family: 'Gaegu', cursive, sans-serif;
+	font-size: 20px;
 }
