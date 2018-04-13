@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /* Use <a href="#"> <i class="material-icons">home</i></a> for home button */
 
+/*
+theme:
+-color: white, blue, grey 
+#F2F7FF(v light grey), #B3CAEF(light blue), #6E9FEF(blue), #2D5AA3(dark blue), #34495E(navy blue)
+*/
+
 /* global */
 body {
 	background: #B3CAEF;
@@ -16,11 +22,6 @@ body {
 a {
 	text-decoration: none;
 }
-/*
-theme:
--color: white, blue, grey 
-#F2F7FF(v light grey), #B3CAEF(light blue), #6E9FEF(blue), #2D5AA3(dark blue), #34495E(navy blue)
-*/
 
 /* lost and found page */
 
