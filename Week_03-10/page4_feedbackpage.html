@@ -4,30 +4,32 @@
 		<meta charset="UTF-8">
 		<title>Page 4</title>
 		<link rel="stylesheet" href="styles.css">
+		<script src="page4.js"></script>
 	</head>
 	
 	<body>
-		<div class="postarea">
-			<div class="post">
-				<!--insert post-->
+		<div class="postarea" id='postarea'>
+			<div class="post" id="post">
 			</div>
 		</div>
 		<br />
-		<form action="#">
-			<!--<input type="text" placeholder="Your feedback for the school" style="width:90%; height:70px;">-->
-			<div class="div-textarea">
-				<textarea rows="5" cols="60" placeholder="Your feedback for the school" class="feedbacktext"></textarea>
-			</div>
-			<br />
-			<div class="form">
-				<select name="anon">
+		<!--<input type="text" placeholder="Your feedback for the school" style="width:90%; height:70px;">-->
+		<div class="div-textarea">
+			<textarea placeholder="Your feedback for the school" class="feedbacktext" id="feedback"></textarea>
+		</div>
+		<br />
+		<div class="form">
+			<div class="anon">
+				<select>
 					<option value="anon">Anonymous?</option>
 					<option value="no">Nah</option>
 				</select>
-				&nbsp; 
-				<button type="submit" class="fbsubmit">Submit</button>
 			</div>
-		</form>
+		&nbsp;
+			<div class="btn">
+				<button class="fbsubmit" onclick="post()">Submit</button>
+			</div>
+		</div>
 		<br />
 		<div class="homebutton">
 			<a href="#"> <i class="material-icons">home</i></a>
