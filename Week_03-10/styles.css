@@ -111,32 +111,36 @@ td {
 
 /* feedback page */
 .postarea {
-	border-radius: 30px;
-	background-color: white;
+	border-radius: 0px;
+	background-color: #F2F7FF;
 	height: 63vh;
-	width: 70vw;
+	width: 95vw;
 	margin: auto;
+	font-size: 17px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: scroll;
 }
 .post {
 	padding-left: 20px;
 }
-.form {
+.form{
 	display: flex;
 	justify-content: center;
 }
+.div-textarea {
+	width: 95vw;
+	margin: auto;
+}
 .feedbacktext {
-	width: 50vw; 
-	height: 11vh;
+	width: 95vw; 
+	height: 13vh;
+	font-size: 20px;
 	resize: none;
 	text-align: center;
 	border-radius: 30px;
 	outline: none;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.div-textarea {
-	width: 50vw;
-	margin: auto;
+	overflow: 
 }
 .fbsubmit {
 	width: 25vw;
@@ -144,12 +148,35 @@ td {
 	border: 2px solid black;
 	border-radius: 30px;
 	background-color: Transparent;
+	outline: none;
 }
 .fbsubmit:hover{
 	color: #f45042;
 	border: 2px solid #f45042;
 }
-::-webkit-input-placeholder {
+.btn {
+	float: left;
+	margin-left: 20px;
+}
+.feedbacktext::-webkit-input-placeholder {
     font-family: 'Gaegu', cursive, sans-serif;
 	font-size: 20px;
+}
+.anon {
+	background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+	height: 29px;
+	overflow: hidden;
+	width: 240px;
+	background-color: #F2F7FF;
+}
+.anon select {
+	background: transparent;
+	border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; 
+    width: 268px;
+}
+.feedbacktext::-webkit-scrollbar, .postarea::-webkit-scrollbar {
+    display: none;
 }
